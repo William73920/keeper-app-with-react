@@ -1,7 +1,6 @@
 {
   "name": "using-pre-built-react-components",
   "version": "1.0.0",
-  "homepage":"http://William73920.github.io/keeper-app-with-react",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
@@ -19,8 +18,8 @@
     "typescript": "3.3.3"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
